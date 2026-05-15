@@ -7,11 +7,7 @@ spec:
   selector:
     app: node-app
   ports:
-    - name: http
+    - protocol: TCP
       port: 8080
       targetPort: 8080
   type: LoadBalancer
-status:
-  loadBalancer:
-    ingress:
-    - ip: 192.168.56.110

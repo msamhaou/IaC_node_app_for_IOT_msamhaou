@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: toto1337/node:1.0.1
+          image: toto1337/node:1.0.0
           ports:
             - containerPort: 8080
           env:
