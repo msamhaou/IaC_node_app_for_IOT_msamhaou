@@ -23,5 +23,7 @@ spec:
           env:
             - name: PORT
               value: "8080"
+            - name: APP_NAME
+              value: "hamam"
 
 
